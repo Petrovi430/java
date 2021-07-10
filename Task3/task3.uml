@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/ffef0ca9/sweater/sweater/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="330.4188463923119" y="413.7789661319073">University#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/University.java</node>
+    <node x="80.0" y="120.0">Teacher#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Teacher.java</node>
+    <node x="40.0" y="420.0">Cafedra#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Cafedra.java</node>
+    <node x="0.0" y="270.0">Group#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Group.java</node>
+    <node x="551.0797046091163" y="492.11102622867327">Facultity#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Facultity.java</node>
+    <node x="94.5" y="0.0">Subject#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Subject.java</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="University#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/University.java" target="Subject#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Subject.java" relationship="RELATION">
+      <point x="34.75" y="-49.0" />
+      <point x="434.6688463923119" y="694.0" />
+      <point x="229.5" y="694.0" />
+      <point x="229.5" y="95.0" />
+      <point x="149.5" y="95.0" />
+      <point x="0.0" y="35.0" />
+    </edge>
+    <edge source="Teacher#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Teacher.java" target="Subject#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Subject.java" relationship="RELATION">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="35.0" />
+    </edge>
+    <edge source="Cafedra#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Cafedra.java" target="Teacher#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Teacher.java" relationship="RELATION">
+      <point x="34.75" y="-49.0" />
+      <point x="144.25" y="394.0" />
+      <point x="149.5" y="394.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Cafedra#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Cafedra.java" target="Group#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Group.java" relationship="RELATION">
+      <point x="-34.75" y="-49.0" />
+      <point x="74.75" y="394.0" />
+      <point x="69.5" y="394.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="University#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/University.java" target="Facultity#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Facultity.java" relationship="RELATION">
+      <point x="-34.75" y="-49.0" />
+      <point x="365.1688463923119" y="694.0" />
+      <point x="620.5797046091163" y="694.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Group#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Group.java" target="Teacher#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Teacher.java" relationship="RELATION">
+      <point x="34.75" y="-49.0" />
+      <point x="104.25" y="244.0" />
+      <point x="149.5" y="244.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Facultity#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Facultity.java" target="Cafedra#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Cafedra.java" relationship="RELATION">
+      <point x="0.0" y="-49.0" />
+      <point x="620.5797046091163" y="544.0" />
+      <point x="109.5" y="544.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Group#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Group.java" target="Subject#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Subject.java" relationship="RELATION">
+      <point x="-34.75" y="-49.0" />
+      <point x="34.75" y="95.0" />
+      <point x="149.5" y="95.0" />
+      <point x="0.0" y="35.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9372315035799523" showDependencies="false" x="499.17041198501875" y="621.6687038451744" />
+  <SelectedNodes>
+    <node>Facultity#file://E:/programming_study/sweater-IntegrationTests/sweater-IntegrationTests/src/main/java/Task3/Facultity.java</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+</Diagram>
+
